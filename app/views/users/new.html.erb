@@ -1,6 +1,8 @@
 <h1>Happiness</h1>
 
 <%= form_for new_user_path(@user) do |f| %>
+  <%= f.label :email %>
+  <%= f.text_field :email %>
   <%= f.label :username %>
   <%= f.text_field :username %>
   <%= f.label :password %>

@@ -1,3 +1,23 @@
-== Happiness
+== hAPPiness
 
 This is an app to log and promote happiness among individuals according to the guidelines laid out in Shawn Achor's TED talk at http://www.youtube.com/watch?v=fLJsdqxnZb0
+
+PROJECT LIST:
+
+-user registration
+
+-user login -> directs to logger landing page
+
+-privacy statement (allow data to be anonymously used in research)
+
+-5 activities logger
+  -user will pick date of log entry
+  -journaling
+  -3 thankful things
+  -random acts of kindness (reddit random acts of pizza link at least?)
+  -meditation (links to resources too?)
+  -exercise (links to resources like http://www.sworkit.com/)
+
+-added bootstrap following this tutorial - leaving here for reference http://railsapps.github.io/twitter-bootstrap-rails.html
+
+
