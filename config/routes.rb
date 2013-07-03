@@ -1,4 +1,7 @@
 Happiness::Application.routes.draw do
+  root :to => 'users#new'
+  resources :user, :only => [:new, :create]
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
