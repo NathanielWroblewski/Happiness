@@ -18,9 +18,6 @@ development:
   adapter: postgresql
   encoding: unicode
   database: happiness_development
-  pool: 5
-  username: happiness
-  password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -47,14 +44,8 @@ test:
   adapter: postgresql
   encoding: unicode
   database: happiness_test
-  pool: 5
-  username: happiness
-  password:
 
 production:
   adapter: postgresql
   encoding: unicode
   database: happiness_production
-  pool: 5
-  username: happiness
-  password:
