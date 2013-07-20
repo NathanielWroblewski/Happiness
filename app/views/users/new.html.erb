@@ -1,11 +1,15 @@
-<h1>Happiness</h1>
+<h1>Register</h1>
 
-<%= form_for new_user_path(@user) do |f| %>
+<%= form_for(User.new) do |f| %>
   <%= f.label :email %>
   <%= f.text_field :email %>
+  <%= f.label :notifications %>
+  <%= f.check_box :notifications %>
   <%= f.label :username %>
   <%= f.text_field :username %>
   <%= f.label :password %>
   <%= f.password_field :password %>
+  <label for="password2">Re-Enter Password</label>
+  <input name="password2" type="password" />
   <%= f.submit 'Submit' %>
 <% end %>

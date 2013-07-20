@@ -10,6 +10,8 @@ PROJECT LIST:
 
 -privacy statement (allow data to be anonymously used in research)
 
+-allow users to enable email notifications to remember to log (must be done regularly for benefit)
+
 -5 activities logger
   -user will pick date of log entry
   -journaling
@@ -19,5 +21,4 @@ PROJECT LIST:
   -exercise (links to resources like http://www.sworkit.com/)
 
 -added bootstrap following this tutorial - leaving here for reference http://railsapps.github.io/twitter-bootstrap-rails.html
-
 

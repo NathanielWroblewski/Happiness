@@ -4,6 +4,7 @@ class Users < ActiveRecord::Migration
   		column.string :username
   		column.string :email
   		column.string :password_digest
+      column.boolean :notifications
   	end
   end
 end

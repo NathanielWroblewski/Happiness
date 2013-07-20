@@ -31,9 +31,10 @@ ActiveRecord::Schema.define(version: 20130703050506) do
   end
 
   create_table "users", force: true do |t|
-    t.string "username"
-    t.string "email"
-    t.string "password_digest"
+    t.string  "username"
+    t.string  "email"
+    t.string  "password_digest"
+    t.boolean "notifications"
   end
 
 end
